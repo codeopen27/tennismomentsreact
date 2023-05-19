@@ -1,19 +1,95 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tennis Moments</title>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
+    <!-- Roboto font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+      rel="stylesheet" />
 
-  <title>Tennis Moments</title>
-</head>
+    <!-- Tailwind Elements styles-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
 
-<body>
-  <div id="root"></div>
+    <!-- Tailwind CSS config -->
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          fontFamily: {
+            sans: ["Roboto", "sans-serif"],
+            body: ["Roboto", "sans-serif"],
+            mono: ["ui-monospace", "monospace"],
+          },
+        },
+        corePlugins: {
+          preflight: false,
+        },
+      };
+    </script>
+  </head>
 
-</body>
+  <body>
+      <!-- Container for demo purpose -->
+  <div class="container my-24 px-6 mx-auto">
 
+    <!-- Section: Design Block -->
+    <section class="mb-32 text-gray-800 background-radial-gradient">
+      <style>
+        .background-radial-gradient {
+          background-color: hsl(218, 41%, 15%);
+          background-image: radial-gradient(650px circle at 0% 0%,
+              hsl(218, 41%, 35%) 15%,
+              hsl(218, 41%, 30%) 35%,
+              hsl(218, 41%, 20%) 75%,
+              hsl(218, 41%, 19%) 80%,
+              transparent 100%),
+            radial-gradient(1250px circle at 100% 100%,
+              hsl(218, 41%, 45%) 15%,
+              hsl(218, 41%, 30%) 35%,
+              hsl(218, 41%, 20%) 75%,
+              hsl(218, 41%, 19%) 80%,
+              transparent 100%);
+        }
+      </style>
+
+      <div class="px-6 py-12 md:px-12 text-center lg:text-left">
+        <div class="container mx-auto">
+          <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+            <div class="mt-12 lg:mt-0">
+              <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+                style="color: hsl(218, 81%, 95%)">
+                Are you ready <br /><span style="color: hsl(218, 81%, 75%)">for Tennis?</span>
+              </h1>
+              <p class="text-lg" style="color: hsl(218, 81%, 95%)">
+                Back in time with the old Tennis Moments!
+              </p>
+            </div>
+            <div class="mb-12 lg:mb-0">
+              <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"
+                style="padding-top: 56.25%">
+                <iframe class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/xNtEPsnqrqk?enablejsapi=1&amp;origin=https%3A%2F%2Fmdbootstrap.com"
+                  allowfullscreen="" data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+    
+  </div>
+  <!-- Container for demo purpose -->
+    <!-- Tailwind Elements JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    
+    <div id="root"></div>
+  </body>
 </html>

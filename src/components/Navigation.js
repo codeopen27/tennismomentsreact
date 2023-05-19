@@ -22,6 +22,20 @@ const Navigation = () => {
         >
           <li>à propos</li>
         </NavLink>
+
+        <NavLink
+          to="/Tournaments"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Tournaments</li>
+        </NavLink>
+
+        <NavLink
+          to="/ContactPage"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Contact</li>
+        </NavLink>
       </ul>
     </div>
   );
