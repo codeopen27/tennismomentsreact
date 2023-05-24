@@ -31,6 +31,13 @@ const Navigation = () => {
         </NavLink>
 
         <NavLink
+          to="/Upload"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <li>Upload File</li>
+        </NavLink>
+
+        <NavLink
           to="/ContactPage"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
