@@ -13,7 +13,7 @@ const Navigation = () => {
           to="/content"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          <li>Content</li>
+          <li>Download</li>
         </NavLink>
 
         <NavLink
@@ -27,7 +27,7 @@ const Navigation = () => {
           to="/Tournaments"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          <li>Tournaments</li>
+          <li>Excel file</li>
         </NavLink>
 
         <NavLink
