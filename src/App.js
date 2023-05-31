@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Content from "./pages/Content";
 import About from "./pages/About";
 import Tournaments from "./pages/Tournaments";
+import Upload from "./pages/Upload";
 import ContactPage from './pages/ContactPage';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/content" element={<Content />} />
         <Route path="/about" element={<About />} />
         <Route path="/tournaments" element={<Tournaments />} />
+        <Route path="/upload" element={<Upload />} />
         <Route path="/contactpage" element={<ContactPage />} />
         {/* path="*" fonctionne si jamais l'url ne correspond à rien de déclaré au dessus */}
         <Route path="*" element={<Home />} />
