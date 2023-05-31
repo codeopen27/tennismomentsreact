@@ -8,7 +8,7 @@ function App() {
   const [file, setFile] = useState(null);
 
   const UPLOAD_ENDPOINT =
-    "http://localhost:3000/src/uploadFile";
+    "http://localhost:3000/src/uploadfile";
 
   const handleSubmit = async e => {
     e.preventDefault();
