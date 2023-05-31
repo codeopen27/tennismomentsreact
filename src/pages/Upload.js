@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Navigation from "../components/Navigation";
-
-<Navigation />
 
 function App() {
   const [file, setFile] = useState(null);

@@ -1,12 +1,9 @@
 import React from "react";
 
-import Navigation from "../components/Navigation";
-
 const Content = () => {
   return (
     <div>
 
-      <Navigation />
       <h1>Download Tennis Matches :</h1>
       <br />
       <p>

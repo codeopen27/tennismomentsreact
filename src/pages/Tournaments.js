@@ -1,10 +1,9 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 
 const Tournaments = () => {
   return (
     <div>
-      <Navigation />
+      
       <h1>Excel file with all Tennis matches available :</h1>
       <br />
       <p>
