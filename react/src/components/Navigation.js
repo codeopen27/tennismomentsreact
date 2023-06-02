@@ -7,6 +7,7 @@ const Navigation = () => {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
+
     }}
     
     className="navigation">
