@@ -34,7 +34,7 @@ const Navigation = () => {
           to="/Tournaments"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          <li>Excel file</li>
+          <li>Excel file with all matches</li>
         </NavLink>
 
         <NavLink
