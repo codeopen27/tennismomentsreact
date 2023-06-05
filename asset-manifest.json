@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tennismomentsreact/static/css/main.2b59e23e.css",
+    "main.js": "/tennismomentsreact/static/js/main.fec6ecab.js",
+    "static/media/JosefinSans-Medium.ttf": "/tennismomentsreact/static/media/JosefinSans-Medium.dd8ca571bd9cc36eb6f5.ttf",
+    "index.html": "/tennismomentsreact/index.html",
+    "main.2b59e23e.css.map": "/tennismomentsreact/static/css/main.2b59e23e.css.map",
+    "main.fec6ecab.js.map": "/tennismomentsreact/static/js/main.fec6ecab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b59e23e.css",
+    "static/js/main.fec6ecab.js"
+  ]
+}
